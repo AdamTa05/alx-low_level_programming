@@ -7,33 +7,22 @@
  */
 int main(void)
 {
-int digit1 = 0;
+    int digit = 0;
 
-while (digit1 <= 9)
-{
-int digit2 = digit1 + 1;
+    while (digit <= 9)
+    {
+        putchar(digit + '0');
 
-while (digit2 <= 9)
-{
-putchar(digit1 + '0');
-putchar(',');
-putchar(' ');
-putchar(digit2 + '0');
+        if (digit != 9)
+        {
+            putchar(',');
+            putchar(' ');
+        }
 
-if (digit1 != 8 || digit2 != 9)
-{
-putchar(',');
-putchar(' ');
+        digit++;
+    }
+
+    putchar('\n');
+
+    return (0);
 }
-
-digit2++;
-}
-
-digit1++;
-}
-
-putchar('\n');
-
-return (0);
-}
-
