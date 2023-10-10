@@ -9,7 +9,7 @@ char letter;
 int i;
 
 for (i = 0; i < 10; i++) /* Loop 10 times */
-{    
+{
 for (letter = 'a'; letter <= 'z'; letter++) /* Loop through the alphabet */
 {
 _putchar(letter);
