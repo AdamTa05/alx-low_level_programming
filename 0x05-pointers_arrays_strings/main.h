@@ -9,6 +9,7 @@ int _putchar(char c);  /* Prototype for _putchar function */
 
 /* Add other function prototypes here if needed */
 void print_rev(char *s);
+void rev_string(char *s);
 
 #endif /* MAIN_H */
 
