@@ -32,12 +32,3 @@ int main(void)
     free(new);
     return (0);
 }
-julien@ubuntu:~/0x12. Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-list_len.c -o b
-julien@ubuntu:~/0x12. Singly linked lists$ ./b 
--> 2 elements
-julien@ubuntu:~/0x12. Singly linked lists$ 
-Repo:
-
-GitHub repository: alx-low_level_programming
-Directory: 0x12-singly_linked_lists
-File: 1-list_len.c
